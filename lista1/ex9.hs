@@ -8,12 +8,6 @@ length' :: [a] -> Int
 length' [] = 0 
 length' (_:xs) = 1 + length' xs
 
-head' :: [a] -> a
-head' (x:_) = x
-
-tail' :: [a] -> [a]
-tail' (_:xs) = xs
-
 listWithMultiples :: [Int] -> Int -> [Int]
 listWithMultiples [] _ = []
 listWithMultiples (x:xs) n = isMultiple [x] n ++ listWithMultiples xs n
