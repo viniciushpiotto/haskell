@@ -1,0 +1,1 @@
+# Resolução dos exercícios de Haskell
